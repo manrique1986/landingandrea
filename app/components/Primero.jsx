@@ -4,7 +4,7 @@ import { FaCircle } from "react-icons/fa";
 const Primero = () => {
   return (
     <div
-      className="relative flex flex-col items-center sm:items-start h-auto min-h-screen w-full text-white  sm:p-8 bg-cover bg-center bg-no-repeat"
+      className=" relative flex flex-col items-center sm:items-start h-auto min-h-screen w-full text-white  sm:p-8 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('https://res.cloudinary.com/dytpump6i/image/upload/v1743202079/Disen%CC%83o_sin_ti%CC%81tulo_22_qp9en7.png')" }}
     >
       {/* Fondo para móviles */}
@@ -12,7 +12,7 @@ const Primero = () => {
         style={{ backgroundImage: "url('https://res.cloudinary.com/dytpump6i/image/upload/v1743202446/Disen%CC%83o_sin_ti%CC%81tulo_24_s9ecqz.png')" }}>
       </div>
 
-      <div className="relative flex flex-col items-center sm:items-start justify-center w-full max-w-[100%] sm:w-3/5  sm:p-8 rounded-lg sm:pl-16">
+      <div className="mt-10 relative flex flex-col items-center sm:items-start justify-center w-full max-w-[100%] sm:w-3/5  sm:p-8 rounded-lg sm:pl-16">
         <div className="flex items-center justify-center sm:justify-start gap-4 sm:gap-6">
           <h1 className="text-3xl sm:text-8xl font-[var(--font-antonio)]">AT</h1>
           <div className="border-l-4 border-white h-12 sm:h-24"></div>

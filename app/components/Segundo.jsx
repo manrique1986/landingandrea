@@ -2,7 +2,6 @@
 
 import React, { useEffect } from "react";
 
-
 const SegundoBloque = () => {
   useEffect(() => {
     const script = document.createElement("script");
@@ -18,7 +17,7 @@ const SegundoBloque = () => {
 
       {/* Contenido */}
       <div className="relative z-10">
-        <h2 className="text-4xl font-bold mb-8">TE CUENTO COMO VOS PODES LOGRARLO</h2>
+        <h2 className="sm:text-4xl text-3xl font-bold mb-8">TE CUENTO COMO VOS PODES LOGRARLO</h2>
 
         {/* Paso 1 */}
         <div className="mt-10">
@@ -46,15 +45,24 @@ const SegundoBloque = () => {
 
         {/* Calendly */}
         <div className="mt-10 w-full flex justify-center">
-          <div className="calendly-inline-widget" data-url="https://calendly.com/andreapaolatomatis/60min" style={{ width: "500px", height: "500px", borderRadius: "10px" }}></div>
+          <div 
+            className="calendly-inline-widget" 
+            data-url="https://calendly.com/andreapaolatomatis/60min" 
+            style={{ 
+              width: "100%", 
+              maxWidth: "500px", 
+              height: "500px", 
+              borderRadius: "10px" 
+            }}
+          ></div>
         </div>
       </div>
-  
     </div>
   );
 };
 
 export default SegundoBloque;
+
 
 
 

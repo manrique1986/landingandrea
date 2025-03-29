@@ -33,41 +33,34 @@ const Primero = () => {
           </p>
 
           <div className="mt-6 text-center sm:text-left p-4 ">
-            <div className="flex flex-wrap justify-center sm:justify-start lg:gap-8">
-              <div className="w-full sm:w-auto ">
-                <ul className="space-y-7 font-[var(--font-poppins)] text-xs sm:text-base grid grid-cols-2 sm:gap-8 sm:space-y-0">
-                  <li className="flex   gap-2">
-                    <FaCircle className="text-[#911ba2] text-xs " /> ESTRATEGIA de captación personalizada
-                  </li>
-                  <li className="flex  gap-2">
-                    <FaCircle className="text-[#911ba2] text-xs " /> PUBLICIDAD OPTIMIZADA en Meta y Google
-                  </li>
-                  <li className="flex  gap-2">
-                    <FaCircle className="text-[#911ba2] text-xs " /> OPTIMIZACIÓN DE PERFIL en redes
-                  </li>
-                  <li className="flex  gap-2">
-                    <FaCircle className="text-[#911ba2] text-xs " /> CREATIVOS de alto impacto
-                  </li>
-                </ul>
-              </div>
-
-              <div className="w-full sm:w-auto">
-                <ul className="space-y-4  font-[var(--font-poppins)] text-xs sm:text-base grid grid-cols-2 sm:gap-8 sm:space-y-0">
-                  <li className="flex  gap-2">
-                    <FaCircle className="text-[#911ba2] text-xs " /> AUTOMATIZACIÓN de gestión de clientes
-                  </li>
-                  <li className="flex  gap-2">
-                    <FaCircle className="text-[#911ba2] text-xs " /> REPORTES y ANÁLISIS de resultados
-                  </li>
-                  <li className="flex  gap-2">
-                    <FaCircle className="text-[#911ba2] text-xs " /> PLANTILLAS de respuesta para ventas
-                  </li>
-                  <li className="flex  gap-2">
-                    <FaCircle className="text-[#911ba2] text-xs " /> SEGUIMIENTO y AJUSTES semanales
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <div className="flex flex-wrap justify-center sm:justify-start lg:gap-8">
+    <ul className="font-[var(--font-poppins)] text-xs sm:text-base grid grid-cols-2 gap-4 sm:gap-8">
+      <li className="flex items-center gap-2">
+        <FaCircle className="text-[#911ba2] text-xs" /> ESTRATEGIA de captación personalizada
+      </li>
+      <li className="flex items-center gap-2">
+        <FaCircle className="text-[#911ba2] text-xs" /> PUBLICIDAD OPTIMIZADA en Meta y Google
+      </li>
+      <li className="flex items-center gap-2">
+        <FaCircle className="text-[#911ba2] text-xs" /> OPTIMIZACIÓN DE PERFIL en redes
+      </li>
+      <li className="flex items-center gap-2">
+        <FaCircle className="text-[#911ba2] text-xs" /> CREATIVOS de alto impacto
+      </li>
+      <li className="flex items-center gap-2">
+        <FaCircle className="text-[#911ba2] text-xs" /> AUTOMATIZACIÓN de gestión de clientes
+      </li>
+      <li className="flex items-center gap-2">
+        <FaCircle className="text-[#911ba2] text-xs" /> REPORTES y ANÁLISIS de resultados
+      </li>
+      <li className="flex items-center gap-2">
+        <FaCircle className="text-[#911ba2] text-xs" /> PLANTILLAS de respuesta para ventas
+      </li>
+      <li className="flex items-center gap-2">
+        <FaCircle className="text-[#911ba2] text-xs" /> SEGUIMIENTO y AJUSTES semanales
+      </li>
+    </ul>
+  </div>
 
             <div className="flex justify-center sm:justify-start mt-20">
               <button className="px-4 sm:px-6 py-2 sm:py-3 bg-[#911ba3] text-white text-xs sm:text-lg rounded-lg hover:bg-[#000000] font-[var(--font-antonio)] text-center w-full sm:w-auto">

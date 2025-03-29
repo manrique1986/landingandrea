@@ -2,10 +2,13 @@
 
 import React from "react";
 import Carrousel from "./ui/Carrousel";
+import SpotlightCard from "./ui/SpotlightCard"
 
 const TestimonialsSection = () => {
   return (
-    <section className="bg-[#600f6d] py-16">
+    
+   
+        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
       <div className="relative z-10 container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-8 text-white dark:text-white">
           ALGUNOS TESTIMONIOS
@@ -15,7 +18,9 @@ const TestimonialsSection = () => {
         </p>
       </div>
       <Carrousel/>
-    </section>
+      </SpotlightCard>
+
+
   );
 };
 

@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/card": "^2.2.15",
+    "@heroui/react": "^2.7.5",
     "@tabler/icons-react": "^3.31.0",
     "motion": "^12.6.2",
     "next": "15.2.4",

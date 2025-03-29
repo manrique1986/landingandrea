@@ -9,7 +9,7 @@ const Primero = () => {
     >
       {/* Fondo para móviles */}
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat sm:hidden" 
-        style={{ backgroundImage: "url('https://res.cloudinary.com/dytpump6i/image/upload/v1743202446/Disen%CC%83o_sin_ti%CC%81tulo_24_s9ecqz.png')" }}>
+        style={{ backgroundImage: "url('https://res.cloudinary.com/dytpump6i/image/upload/v1743208308/Disen%CC%83o_sin_ti%CC%81tulo_25_cz3bja.png')" }}>
       </div>
 
       <div className="mt-10 relative flex flex-col items-center sm:items-start justify-center w-full max-w-[100%] sm:w-3/5  sm:p-8 rounded-lg sm:pl-16">

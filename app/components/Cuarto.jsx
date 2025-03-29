@@ -59,7 +59,7 @@ const TestimonialsSection = () => {
                                     </div>
                                     <div className="ml-3">
                                         <span className="block text-[#cf27e9]">{items.authorName}</span>
-                                        <span className="block dark:text-white text-sm">{items.date}</span>
+                                        <span className="block dark:text-white text-white text-sm">{items.date}</span>
                                     </div>
                                 </div>
                                 <div className="pt-3 ml-4 mr-2 mb-3">

@@ -7,7 +7,7 @@ const TestimonialsSection = () => {
   return (
     <section className="bg-[#600f6d] py-16">
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <h2 className="text-4xl font-bold mb-8">
+        <h2 className="text-4xl font-bold mb-8 text-white dark:text-white">
           ALGUNOS TESTIMONIOS
         </h2>
         <p className="mt-4 text-lg text-white">

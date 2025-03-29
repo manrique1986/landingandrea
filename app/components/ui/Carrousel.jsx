@@ -66,7 +66,7 @@ const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
             exit={{ y: -20, opacity: 0 }}
             transition={{ duration: 0.2, ease: "easeInOut" }}
           >
-            <h3 className="text-2xl font-bold text-black dark:text-white">
+            <h3 className="text-2xl font-bold text-white dark:text-white">
               {testimonials[active].name}
             </h3>
             <p className="text-sm text-gray-500 dark:text-neutral-500">

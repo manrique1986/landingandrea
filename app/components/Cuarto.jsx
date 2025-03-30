@@ -21,8 +21,8 @@ const TestimonialsSection = () => {
             desc: "El mundo de la arquitectura y la construccion no es facil en redes, pero Andrea ha sabido entender nuestro rubro a la perfeccion. Creo nuestras redes sociales desde cero y hoy sigue gestionandolas con estrategias claras y efectivas. Ademmas, recientemente iniciamos campañas en meta Adccon excelentes resultados: Conseguimos reuniones, presupuestos y estamos a punto de cerrar nuevos clientes. Es una persona cercana, que siempre escucha y esta pendiente de nuestras necesidades. ¡Totalmente recomendable!",
             img: "https://images.unsplash.com/photo-1620287341056-49a2f1ab2fdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
             authorLogo: "https://api.uifaces.co/our-content/donated/FJkauyEa.jpg",
-            authorName: "Roberto Pavlivk",
-            date: "Dueño de Ar",
+            authorName: "Roberto Pavlik",
+            date: "Dueño de Ar - Arquitectura y construcción",
             href: "javascript:void(0)"
         },
         {

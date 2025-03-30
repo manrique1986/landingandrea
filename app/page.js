@@ -3,6 +3,7 @@ import Primero from "./components/Primero";
 import Segundo from "./components/Segundo";
 import Tercero from "./components/Tercero";
 import Cuarto from "./components/Cuarto"
+import Quinto from "./components/quinto"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Segundo/>
       <Tercero/>
       <Cuarto/>
+      <Quinto/>
           </div>
   );
 }

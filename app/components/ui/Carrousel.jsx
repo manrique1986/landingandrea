@@ -17,7 +17,7 @@ const AnimatedTestimonials = ({ testimonials }) => {
   return (
   
     <div className="flex flex-col items-center justify-center min-h-screen w-full text-white py-8 mt-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto p-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto p-6">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
@@ -52,8 +52,13 @@ export default function Carrousel() {
     },
     {
       name: "Pato Poggi",
-      designation: "Negocio",
+      designation: "Asesora y comercial de Essen Argentina",
       src: "https://res.cloudinary.com/dytpump6i/video/upload/v1743259404/TESTIMONIO_PATO_POGGI_zao1ug.mp4",
+    },
+    {
+      name: "Antonella Arquicon",
+      designation: "Ar. Arquitectura y Contrucciones",
+      src: "https://res.cloudinary.com/dytpump6i/video/upload/v1743358713/WhatsApp_Video_2025-03-30_at_15.05.29_awhrbd.mp4",
     },
   ];
 

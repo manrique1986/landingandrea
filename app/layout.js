@@ -1,5 +1,6 @@
 import { Antonio, Poppins } from "next/font/google";
 import "./globals.css";
+import Footer from "./components/Footer";
 
 // Importar las fuentes y definirlas con variables CSS
 const antonio = Antonio({
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${antonio.variable} ${poppins.variable}`}>
       <body>
         {children}
+        <Footer/>
       </body>
     </html>
   );

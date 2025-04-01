@@ -12,7 +12,7 @@ const Primero = () => {
         style={{ backgroundImage: "url('https://res.cloudinary.com/dytpump6i/image/upload/v1743208308/Disen%CC%83o_sin_ti%CC%81tulo_25_cz3bja.png')" }}>
       </div>
 
-      <div className="mt-10 relative flex flex-col items-center sm:items-start justify-center w-full max-w-[100%] sm:w-3/5  sm:p-8 rounded-lg sm:pl-16">
+      <div className=" relative flex flex-col items-center sm:items-start justify-center w-full max-w-[100%] sm:w-3/5  sm:p-8 rounded-lg sm:pl-16">
         <div className="flex items-center justify-center sm:justify-start gap-4 sm:gap-6">
           <h1 className="text-3xl sm:text-8xl font-[var(--font-antonio)]">AT</h1>
           <div className="border-l-4 border-white h-12 sm:h-24"></div>

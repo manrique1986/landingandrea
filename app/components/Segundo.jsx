@@ -21,7 +21,7 @@ const SegundoBloque = () => {
 
         {/* Paso 1 */}
         <div className="mt-10">
-          <h3 className="text-2xl font-semibold text-[#cf27e9]">Paso 1 de 2: <span className="text-white">Mira el video</span></h3>
+          <h3 className="text-3xl font-semibold text-[#cf27e9]">Paso 1 de 2: <span className="text-white">Mira el video</span></h3>
           <div className="mt-4 flex justify-center">
           <iframe 
   className="w-full md:w-full h-64 md:h-[600px] rounded-3xl" 
@@ -37,11 +37,11 @@ const SegundoBloque = () => {
 
         {/* Paso 2 */}
         <div className="mt-10">
-          <h3 className="text-2xl font-semibold text-[#cf27e9]">Paso 2 de 2:</h3>
-          <p className="mt-2 text-lg">
+          <h3 className="text-3xl font-semibold text-[#cf27e9]">Paso 2 de 2:</h3>
+          <p className="mt-2 text-2xl">
             Agenda tu sesión de consultoría gratuita
           </p>
-          <p className="text-gray-300">
+          <p className="text-gray-300 lg:text-xl">
             Programa tu llamada 1000% gratuita en el calendario de abajo para ver si sos un buen fit para nuestro programa.
           </p>
         </div>

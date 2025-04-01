@@ -13,7 +13,7 @@ const TestimonialsSection = () => {
         <h2 className="text-4xl font-bold mb-8 text-white dark:text-white">
           ALGUNOS TESTIMONIOS
         </h2>
-        <p className="mt-4 text-lg text-white">
+        <p className="mt-4 text-lg lg:text-2xl text-white">
           Ellos tomaron acción y ahora están disfrutando de los resultados
         </p>
       </div>

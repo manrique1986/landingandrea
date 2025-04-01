@@ -23,12 +23,14 @@ const SegundoBloque = () => {
         <div className="mt-10">
           <h3 className="text-2xl font-semibold text-[#cf27e9]">Paso 1 de 2: <span className="text-white">Mira el video</span></h3>
           <div className="mt-4 flex justify-center">
-            <iframe 
-              className="w-full md:w-3/5 h-64 md:h-96" 
-              src="https://www.youtube.com/embed/TU_CODIGO_DE_VIDEO" 
-              title="Video de YouTube"
-              allowFullScreen
-            ></iframe>
+          <iframe 
+  className="w-full md:w-3/5 h-64 md:h-96 rounded-lg"  // Agregando la clase "rounded-lg" para bordes redondeados
+  src="https://player.vimeo.com/video/1071083419?h=b9f4a81c0c&title=0&byline=0&portrait=0&dnt=1"
+  title="Video"
+  allowFullScreen
+></iframe>
+
+
           </div>
         </div>
 

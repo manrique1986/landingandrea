@@ -39,7 +39,7 @@ const Primero = () => {
         <FaCircle className="text-[#911ba2] text-xs" /> ESTRATEGIA de captación personalizada
       </li>
       <li className="flex items-center gap-2">
-        <FaCircle className="text-[#911ba2] text-xs" /> PUBLICIDAD OPTIMIZADA en Meta y Google
+        <FaCircle className="text-[#911ba2] text-xs" /> PUBLICIDAD OPTIMIZADA en  Meta, Google y LinkedIn ads
       </li>
       <li className="flex items-center gap-2">
         <FaCircle className="text-[#911ba2] text-xs" /> OPTIMIZACIÓN DE PERFIL en redes

@@ -17,7 +17,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Vendes sin perseguir",
+  title: "Vender sin perseguir",
   description: "",
 };
 

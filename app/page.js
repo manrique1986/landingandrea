@@ -11,7 +11,11 @@ export default function Home() {
   const calendlyRef = useRef(null);
 
   const scrollToCalendly = () => {
-    calendlyRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (calendlyRef.current) {
+      calendlyRef.current.scrollIntoView({ behavior: "smooth" });
+    } else {
+      console.warn("Ref not found!");
+    }
   };
 
   return (
